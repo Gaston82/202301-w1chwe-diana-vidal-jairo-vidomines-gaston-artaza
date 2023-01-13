@@ -17,8 +17,5 @@
     "husky": "^8.0.0",
     "parcel": "^2.8.2",
     "rimraf": "^4.0.4"
-  },
-  "dependencies": {
-    "serve": "^14.1.2"
   }
 }
