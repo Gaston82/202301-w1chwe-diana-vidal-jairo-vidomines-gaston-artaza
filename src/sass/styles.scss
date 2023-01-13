@@ -1,3 +1,18 @@
+@use "fonts/fonts";
+@import url("/node_modules/@fontsource/playfair-display/400.css");
+@import url("/node_modules/@fontsource/rubik/400.css");
+@import url("/node_modules/@fontsource/rubik/500.css");
+
 body {
   background-color: purple;
+}
+
+p {
+  font-family: fonts.$font-headers;
+  font-weight: 400;
+}
+
+span {
+  font-family: fonts.$font-main;
+  font-weight: 400;
 }
