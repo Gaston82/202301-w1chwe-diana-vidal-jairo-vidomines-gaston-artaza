@@ -5,7 +5,8 @@
 @import url("/node_modules/@fontsource/rubik/500.css");
 
 body {
-  background-color: purple;
+  // background-color: purple;
+  margin: 0;
 }
 
 p {
@@ -22,4 +23,12 @@ span {
   color: white;
   font-size: 400;
   font-family: fonts.$font-main;
+}
+
+.header {
+  height: 95vh;
+  background-image: url(../img/banner.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
