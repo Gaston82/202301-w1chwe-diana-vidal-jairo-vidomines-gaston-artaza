@@ -3,26 +3,216 @@
 @import url("/node_modules/@fontsource/playfair-display/400.css");
 @import url("/node_modules/@fontsource/rubik/400.css");
 @import url("/node_modules/@fontsource/rubik/500.css");
+@import url("/node_modules/@fontsource/mulish/400.css");
 
-body {
-  // background-color: purple;
-  margin: 0;
-}
-
-p {
+h2 {
   font-family: fonts.$font-headers;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
-span {
-  font-family: fonts.$font-main;
-  font-weight: 400;
+.destinations {
+  &__title {
+    p {
+      font-family: fonts.$font-main;
+      color: #767e86;
+      font-size: 1.125rem;
+    }
+  }
+
+  &__content {
+    span {
+      font-family: fonts.$font-headers;
+      /* color: ; */
+      font-size: 1.5rem;
+    }
+  }
+  .location {
+    font-family: fonts.$font-main;
+    /* color:; */
+    font-size: 1.125rem;
+  }
 }
 
-.vector {
-  color: white;
-  font-size: 400;
-  font-family: fonts.$font-main;
+.special-offer {
+  &__title {
+    p {
+      font-family: fonts.$font-main;
+      color: #767e86;
+      font-size: 1.125rem;
+    }
+  }
+  &__content {
+    span {
+      font-family: fonts.$font-mulish;
+      color: #767e86;
+      font-size: 1.75rem;
+    }
+
+    p {
+      font-family: fonts.$font-main;
+      font-size: 1rem;
+    }
+  }
+  .special-offer__content--sizecolor {
+    font-size: 2rem;
+    color: #ff7757;
+  }
+
+  .special-offer__content--color {
+    color: #767e86;
+  }
+
+  button {
+    font-family: fonts.$font-main;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff7757;
+    border-radius: 12px;
+    padding: 12px 24px;
+    border: none;
+    width: 127px;
+    height: 56px;
+    font-size: 1.25rem;
+  }
+}
+
+.blog {
+  &__title {
+    p {
+      font-family: fonts.$font-main;
+      color: #767e86;
+    }
+
+    h2 {
+      font-family: fonts.$font-headers;
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+  }
+  .blog__content {
+    h3 {
+      font-family: fonts.$font-headers;
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+
+    p {
+      font-family: fonts.$font-main;
+      font-size: 1.125rem;
+      line-height: 2.5rem;
+    }
+
+    span {
+      font-family: fonts.$font-main;
+      color: #ff7757;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.trip-planners {
+  &__title {
+    p {
+      font-family: fonts.$font-main;
+      color: #767e86;
+      font-size: 1.125rem;
+    }
+  }
+
+  button {
+    color: #fff;
+    font-family: fonts.$font-main;
+    border-radius: 12px;
+    background-color: #ff7757;
+    padding: 20px;
+    border: none;
+  }
+
+  .image-container__guided {
+    span {
+      font-family: fonts.$font-main;
+      text-transform: uppercase;
+      font-size: 1.125rem;
+    }
+  }
+
+  .image-container__stars {
+    span {
+      font-family: fonts.$font-main;
+      font-size: 1.125rem;
+    }
+  }
+
+  .image-container__guided {
+    font-family: fonts.$font-headers;
+    font-size: 1.75rem;
+  }
+
+  .tour {
+    font-family: fonts.$font-headers;
+    font-size: 1.75rem;
+  }
+}
+
+.testimonial {
+  &__title {
+    p {
+      font-family: fonts.$font-main;
+      color: #767e86;
+      font-size: 1.125rem;
+    }
+  }
+
+  &__content {
+    p {
+      font-family: fonts.$font-main;
+      color: #767e86;
+      font-size: 1.125rem;
+    }
+
+    span {
+      font-family: fonts.$font-headers;
+      font-size: 1.5rem;
+      color: #767e86;
+    }
+
+    .job {
+      font-family: fonts.$font-main;
+      font-size: 1.125rem;
+    }
+  }
+}
+
+.newsletter {
+  &__title {
+    h2 {
+      color: #767e86;
+    }
+    span {
+      font-family: fonts.$font-main;
+      font-size: 1.25rem;
+      color: #767e86;
+    }
+
+    button {
+      background-color: #ff7757;
+      color: #fff;
+      font-family: fonts.$font-main;
+      border-radius: 12px;
+      border: none;
+      padding: 12px 40px;
+      width: 248px;
+      height: 73px;
+      font-size: 1.25rem;
+    }
+  }
+
+  .email {
+    color: #ff7757;
+    padding: 24px 0;
+    background-color: #ffe8d4;
+  }
 }
 
 .header {
