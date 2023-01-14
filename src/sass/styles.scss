@@ -221,4 +221,31 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: #fff;
+  font-family: fonts.$font-headers;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__primary {
+  display: block;
+}
+
+.header__sub {
+  display: block;
+  font-family: fonts.$font-mulish;
+  font-size: 18px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav__burguer {
+  width: 37.5px;
+  height: 23px;
+  color: #fff;
 }
