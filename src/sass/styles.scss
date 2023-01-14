@@ -4,10 +4,6 @@
 @import url("/node_modules/@fontsource/rubik/400.css");
 @import url("/node_modules/@fontsource/rubik/500.css");
 @import url("/node_modules/@fontsource/mulish/400.css");
-/* body {
-
-}
- */
 
 h2 {
   font-family: fonts.$font-headers;
@@ -217,4 +213,12 @@ h2 {
     padding: 24px 0;
     background-color: #ffe8d4;
   }
+}
+
+.header {
+  height: 95vh;
+  background-image: url(../img/banner.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
