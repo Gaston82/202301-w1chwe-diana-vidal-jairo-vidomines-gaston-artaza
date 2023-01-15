@@ -10,7 +10,7 @@ h2 {
   font-family: fonts.$font-headers;
   font-size: 2.5rem;
   font-weight: 400;
-  margin-top: 50px;
+  margin-top: 125px;
   color: #172432;
 }
 
@@ -26,16 +26,41 @@ h2 {
   }
 
   &__content {
+    position: relative;
     span {
       font-family: fonts.$font-headers;
       /* color: ; */
       font-size: 1.5rem;
     }
-  }
-  .location {
-    font-family: fonts.$font-main;
-    /* color:; */
-    font-size: 1.125rem;
+    > img {
+      object-fit: cover;
+      width: 288px;
+      height: 320px;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 30px;
+      width: 100%;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      &__location {
+        display: flex;
+        gap: 1rem;
+        margin-top: 10px;
+        span {
+          font-family: fonts.$font-main;
+          font-size: 1.125rem;
+        }
+        img {
+          margin: 0px;
+        }
+      }
+    }
   }
 }
 
