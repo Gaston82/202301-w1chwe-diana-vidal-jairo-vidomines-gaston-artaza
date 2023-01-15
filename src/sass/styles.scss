@@ -29,7 +29,7 @@ h2 {
     position: relative;
     span {
       font-family: fonts.$font-headers;
-      /* color: ; */
+
       font-size: 1.5rem;
     }
     > img {
@@ -73,24 +73,77 @@ h2 {
     }
   }
   &__content {
+    margin-top: 60px;
     span {
+      padding: 20px;
       font-family: fonts.$font-mulish;
       color: #767e86;
       font-size: 1.75rem;
     }
 
     p {
+      padding: 20px;
+      padding-top: 0;
+      padding-bottom: 0;
       font-family: fonts.$font-main;
       font-size: 1rem;
     }
+
+    img {
+      display: flex;
+      flex-direction: column;
+      object-fit: cover;
+      width: 288px;
+      height: 286px;
+      border-radius: 26px 26px 0px 0px;
+      margin: 0;
+    }
+
+    .rating-stars {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      padding: 20px;
+      padding-bottom: 0;
+      padding-top: 0;
+      .rating {
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
+
+  .special-offer__content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff8f1;
+    border-radius: 26px 26px;
+
+    .container-from-details {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+
+      &__price {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+
   .special-offer__content--sizecolor {
     font-size: 2rem;
     color: #ff7757;
+    padding-left: 8px;
   }
 
   .special-offer__content--color {
+    font-size: 1.125rem;
     color: #767e86;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    justify-content: center;
   }
 
   button {
