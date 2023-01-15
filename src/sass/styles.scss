@@ -82,11 +82,10 @@ h2 {
     }
 
     p {
-      padding: 20px;
-      padding-top: 0;
-      padding-bottom: 0;
+      padding: 0 20px 0px;
       font-family: fonts.$font-main;
       font-size: 1rem;
+      margin-bottom: 0;
     }
 
     img {
@@ -102,7 +101,7 @@ h2 {
     .rating-stars {
       display: flex;
       flex-direction: row;
-      gap: 15px;
+      gap: 10px;
       padding: 20px;
       padding-bottom: 0;
       padding-top: 0;
@@ -135,15 +134,16 @@ h2 {
     font-size: 2rem;
     color: #ff7757;
     padding-left: 8px;
+    margin-top: 0;
   }
 
   .special-offer__content--color {
     font-size: 1.125rem;
     color: #767e86;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 20 0;
     padding-bottom: 20px;
     justify-content: center;
+    margin-top: 0;
   }
 
   button {
