@@ -222,35 +222,55 @@ h2 {
 }
 
 .header {
-  height: 95vh;
-  background-image: url(../img/banner.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100vh;
   color: #fff;
   font-family: fonts.$font-headers;
-  padding: 16px;
+  padding: 0 32;
+  background-image: url(../img/banner.webp);
+  background-size: 600%;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .header__primary {
   display: block;
+  font-weight: 400;
+  font-size: 40px;
+  padding-bottom: 1rem;
 }
 
 .header__sub {
   display: block;
   font-family: fonts.$font-mulish;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .header__nav {
   display: flex;
   justify-content: space-between;
+  padding-top: 35px;
+}
+.header__nav__logo {
+  margin: 0;
+  height: 27px;
+  border-radius: 0;
 }
 
 .header__nav__burguer {
   width: 37.5px;
   height: 23px;
   color: #fff;
+  margin: 0;
+  border-radius: 0;
+}
+
+.header-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
 
 img {
