@@ -1,0 +1,29 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 80" width="432" height="80">
+	<title>logo_travellian_footer-svg</title>
+	<defs>
+		<image  width="71" height="80" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAABQAgMAAAA2DYCvAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAAVSgd////jFy9EQAAAAN0Uk5TAAD/13QrUwAAATFJREFUeJylk0F2xCAIhk0WWXCEHoFT9GgeoUdw0UXqKUdEBJTXvnSyGDN/9Bc+ICV+Pmr9Su45a3u8hCSVbZPfBizl9Zw/yUq9NytrBiLl3yRyL+D8sTs7iY+AvZLvOo0k7yaKWCrjlsdSHkk8lv594xr9MdP+WUhcC5y88MLuj3+Apkr0YuYp9X/g+4TOoGuAoCeizgn6K+jCtFn1Ht+6fNsUScEowBpDNB1BEO8MzL0PDCFcBqaDVjOUckyzo0odZwNcs9r101jpF7VKzmxEdGhkwurSNIWVYSasDDNhpcyElWEmrAwzYWWYCStldtlDnOYEo4B8AO33O/kwkT7wqyQjUtbUgSTkgEcufTRhzmLhNTe9DBxjJT2PTHmlMyhoeZ2lbJvX7m2byyaBlDC9AElifRcFTjU1AAAAAElFTkSuQmCC"/>
+		<image  width="40" height="59" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA7AQMAAAAzclobAAAAAXNSR0IB2cksfwAAAAZQTFRF////VSgdAe79VgAAAAJ0Uk5T/wDltzBKAAAAFklEQVR4nGNgIAv8/8dQ/3+UJESCAAAbr6+HQoNwiAAAAABJRU5ErkJggg=="/>
+		<image  width="26" height="40" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAoAQMAAADaNngrAAAAAXNSR0IB2cksfwAAAAZQTFRFVSgd////qljtHgAAAAJ0Uk5TAP9bkSK1AAAANklEQVR4nGNgYPjDwPD/+P8Ghv/n/x9g+H8fRPwHcaEEA4yQAxJ/2IDEBwYY8QCVODAwBAgAAIDHT+DfH3yYAAAAAElFTkSuQmCC"/>
+		<image  width="39" height="41" id="img4" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAApAQMAAACMZ6IGAAAAAXNSR0IB2cksfwAAAAZQTFRFVSgd////qljtHgAAAAJ0Uk5TAP9bkSK1AAAAd0lEQVR4nG3PMQ7DIBBE0W9RUHIEH4WjkaO58zXSuU0XCrQTWBwrSkLxRLHanYFY6S8rGhTtxiIdRpCeRpRkpA9XN4thI3crq1Ee7p3kxrfa/hh+/Jop27khXc791S82io2P5zmuVDPhzBzcxVug0auHvvWmscELbXV6G82278IAAAAASUVORK5CYII="/>
+		<image  width="40" height="41" id="img5" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAApAQMAAAB9bPmLAAAAAXNSR0IB2cksfwAAAAZQTFRF////VSgdAe79VgAAAAJ0Uk5T/wDltzBKAAAAe0lEQVR4nD3OMQ4CMQwEwI1ShC4tBVI+gsjPOPOzID4SiYI2ZYrojG35bnc19QKVF4CiUuEZQFltmUd0e+Ke3BG5ZXcGbkWlgiVWLDAqdnETnyKLLH2odA/qTW3XeNovSYU6kE+n/Dpc8vRwdzeRXRuZL/Ntfsyv+TMlfwGlgHNJhaSaAAAAAElFTkSuQmCC"/>
+		<image  width="39" height="41" id="img6" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAApAQMAAACMZ6IGAAAAAXNSR0IB2cksfwAAAAZQTFRFVSgd////qljtHgAAAAJ0Uk5TAP9bkSK1AAAAeUlEQVR4nI2PsQ3AIAwEH1FQMkJGYbRkNEZhBMoUFp83TpMuknVCtvl/A4kXgINTbFwiSahNDbLYUcSBKk4tJt44DO328sdENZzjZRH1ZbkMf7LDbb/Ml6vlvjUnznCR40KzXQRNeag8kS1ylp058sctWjWx7huhxgMYWX3esbYmPwAAAABJRU5ErkJggg=="/>
+		<image  width="9" height="61" id="img7" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAA9AQMAAABFtNHoAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAAxJREFUeJxjYBiSAAAAtwABvVvZyQAAAABJRU5ErkJggg=="/>
+		<image  width="9" height="61" id="img8" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAA9AQMAAABFtNHoAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAAxJREFUeJxjYBiSAAAAtwABvVvZyQAAAABJRU5ErkJggg=="/>
+		<image  width="11" height="59" id="img9" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAA7AQMAAACXGOLIAAAAAXNSR0IB2cksfwAAAAZQTFRFVSgd////qljtHgAAAAJ0Uk5TAP9bkSK1AAAAH0lEQVR4nGOwZ2CoP8DwH4geoKIDIHGgLH5Qf4DOCAB1qT8wd40H2QAAAABJRU5ErkJggg=="/>
+		<image  width="38" height="41" id="img10" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAApAQMAAABjpck4AAAAAXNSR0IB2cksfwAAAAZQTFRFVSgd////qljtHgAAAAJ0Uk5TAP9bkSK1AAAAdUlEQVR4nG3PIQ6AMAwF0E8QkxxhR+FoI0FwLRzXwGHnQDR82m4EwSbeJpbffmAQ6Elc9CY3QU8egkCegoHka3RHzqZATZc9UkZU96rmca2GptPP1k9L8LSanH2WTyzTR3but1vZM7i97995F+1l7eJtTbEDD0MtfChXfa/gAAAAAElFTkSuQmCC"/>
+		<image  width="37" height="39" id="img11" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAnAQMAAACymBNLAAAAAXNSR0IB2cksfwAAAAZQTFRFVSgd////qljtHgAAAAJ0Uk5TAP9bkSK1AAAAQ0lEQVR4nGNgYKj/wcDwv/n/PyDZ/v9/A8P/+f//H2D4v////wcM///DyA9wkgFE/gFpAzLs4eQDBnkgeYAokn8ASADTCXnEbONDFwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="img1" href="#img1" x="5" y="0"/>
+	<use id="Layer" href="#img2" x="87" y="11"/>
+	<use id="Layer" href="#img3" x="126" y="30"/>
+	<use id="Layer" href="#img4" x="153" y="30"/>
+	<use id="Layer" href="#img5" x="196" y="31"/>
+	<use id="Layer" href="#img6" x="238" y="30"/>
+	<use id="Layer" href="#img7" x="286" y="8"/>
+	<use id="Layer" href="#img8" x="307" y="8"/>
+	<use id="Layer" href="#img9" x="327" y="10"/>
+	<use id="Layer" href="#img10" x="346" y="30"/>
+	<use id="Layer" href="#img11" x="395" y="30"/>
+</svg>
