@@ -11,46 +11,44 @@
 </head>
 
 <body>
-  <header class="header">
-    <nav class="header__nav">
-      <img class="header__nav__logo" src="./img/logo_travellian.webp" alt="travellian logo">
-      <img class="header__nav__burguer" src="./icons/burguer_menu.png" alt="burguer menu icon">
-    </nav>
-
-    <div class="header-box">
-      <h1>
-        <span class="header__primary">Start your unforgettable journey with us.</span>
-        <span class="header__sub">The best travel for your journey begins now</span>
-      </h1>
-    </div>
-
-    <div>
-      <i></i>
-      <i></i>
-    </div>
-    <i></i>
-
-
-    <form class="book-form">
-      <div class="book-form__destination">
-        <label for="destination">Destination</label><br>
-        <input type="text" id="destination" name="destination" placeholder="Dubai"><br>
-        <label for="person">Person</label><br>
-        <input type="text" id="person" name="person" placeholder="2"><br>
+  <section class="hero">
+    <header class="header">
+      <nav class="header__nav">
+        <img class="header__nav__logo" src="./img/logo_travellian.webp" alt="travellian logo">
+        <img class="header__nav__burguer" src="./icons/burguer_menu.png" alt="burguer menu icon">
+      </nav>
+      <div class="header-box">
+        <h1>
+          <span class="header__primary">Start your unforgettable journey with us.</span>
+          <span class="header__sub">The best travel for your journey begins now</span>
+        </h1>
       </div>
-      <div class="book-form__check">
-        <label for="check-in">Check in</label><br>
-        <input type="text" id="check-in" name="check-in" placeholder="Sun, 17th Sep 2020"><br>
-        <label for="check-out">Check out</label><br>
-        <input type="text" id="check-out" name="check-out" placeholder="Tue, 17th Oct 2020"><br>
+    </header>
+    <form class="book-form">
+      <div class="book-form__destination form-container">
+        <label for="destination">Destination</label>
+        <input type="text" id="destination" name="destination" placeholder="Dubai">
+      </div>
+      <div class="form-container">
+        <label for="person">Person</label>
+        <input type="text" id="person" name="person" placeholder="2">
+      </div>
+      <div class="book-form__check form-container">
+        <label for="check-in">Check in</label>
+        <input type="text" id="check-in" name="check-in" placeholder="Sun, 17th Sep 2020">
+      </div>
+      <div class="form-container">
+        <label for="check-out">Check out</label>
+        <input type="text" id="check-out" name="check-out" placeholder="Tue, 17th Oct 2020">
       </div>
       <div class="book-form__book">
-        <input type="submit" value="Book Now">
-        <i></i>
+        <div class="form-container">
+          <span>Book now</span>
+          <img src="icons/arrow-right.long.webp" width="25" alt="arrow">
+        </div>
       </div>
     </form>
-  </header>
-
+  </section>
 
   <main>
     <article class="destinations">
@@ -105,13 +103,15 @@
           <button>Details</button>
         </div>
 
-        <div>
-          <div class="buttons">
-            <img src="/src/img/botton_left.svg" alt="Botton left">
-            <img src="./img/botton_right.svg" alt="Botton right">
-          </div>
-        </div>
+
       </section>
+
+      <div>
+        <div class="buttons">
+          <img src="/src/img/botton_left.svg" alt="Botton left">
+          <img src="./img/botton_right.svg" alt="Botton right">
+        </div>
+      </div>
     </article>
 
     <article class="blog">
