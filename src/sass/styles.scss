@@ -440,11 +440,20 @@ footer {
     &__menu {
       a {
         color: white;
+        text-decoration: none;
       }
     }
     &__information {
       a {
         color: white;
+        text-decoration: none;
+      }
+    }
+    &__contact {
+      a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
       }
     }
     &__logo {
