@@ -225,10 +225,16 @@
 
     <article class="newsletter">
       <section class="newsletter__title">
-        <h2>Our Newsletter</h2>
-        <span>Email</span>
-        <button class="newsletter__title email">Enter your email</button>
-        <button>Subscribe</button>
+        <div>
+          <h2>Our Newsletter</h2>
+        </div>
+        <div>
+          <form class="form">
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="text" id="email" name="Email" placeholder="Enter your email">
+            <input class="form__submit" type="submit" value="Subscribe">
+          </form>
+        </div>
       </section>
     </article>
   </main>
