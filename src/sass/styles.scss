@@ -349,15 +349,30 @@ h2 {
   }
 }
 
-.header {
+body {
   height: 100vh;
-  color: #fff;
-  font-family: fonts.$font-headers;
   padding: 0 32;
   background-image: url(../img/banner.webp);
   background-size: 600%;
   background-position: left;
   background-repeat: no-repeat;
+}
+
+.hero {
+  height: 1210px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 100vh;
+  color: #fff;
+  font-family: fonts.$font-headers;
+  // padding: 0 32;
+  // background-image: url(../img/banner.webp);
+  // background-size: 600%;
+  // background-position: left;
+  // background-repeat: no-repeat;
 }
 
 .header__primary {
@@ -379,6 +394,7 @@ h2 {
   justify-content: space-between;
   padding-top: 35px;
 }
+
 .header__nav__logo {
   margin: 0;
   height: 27px;
@@ -401,6 +417,29 @@ h2 {
   width: 90%;
 }
 
+label {
+  text-transform: uppercase;
+  color: #767e86;
+  font-family: fonts.$font-main;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+input {
+  color: #172432;
+  font-family: fonts.$font-headers;
+  border: 0;
+}
+
+.book-form {
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 60px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -416,4 +455,20 @@ main {
   display: flex;
   justify-content: center;
   gap: 2rem;
+}
+
+.book-form__book {
+  background-color: #ff7757;
+  font-family: fonts.$font-headers;
+  font-size: 36px;
+  border-radius: 0 0 15px 15px;
+  color: #fff;
+}
+
+.book-form__book img {
+  display: inline-block;
+}
+
+.form-container {
+  padding: 20px;
 }
